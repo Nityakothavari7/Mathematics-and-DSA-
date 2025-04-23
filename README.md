@@ -128,8 +128,8 @@ $$
 
 - **MATLAB Implementation:**  
  ## How to Run
-  2. **Open MATLAB** (R2021b or newer, Control System Toolbox required)
-  3. **Run the main simulation script:**
+  1. **Open MATLAB** (R2021b or newer, Control System Toolbox required)
+  2. **Run the main simulation script:**
 
 ---
 
@@ -170,13 +170,6 @@ $$
 - **Adaptive RK4:** Fast, accurate, handles discontinuities and angle wrapping
 - **Open-Source Toolkit:** MATLAB/Simulink GUI, disturbance injection, hardware export
 - **Cost-Benefit:** $50k for 0.5″ accuracy vs. $250k for 1″ in commercial systems
-
----
-
-
-4. **View results:**  
-- 2D animation of telescope tracking  
-- Plots of azimuth/elevation tracking, errors, and control inputs
 
 ---
 
