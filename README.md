@@ -137,9 +137,10 @@ $$
 
 - **Integration:** Fourth-order Runge-Kutta (RK4) with small random noise for realism.
 - **2D Animation:**
+  - ![Screenshot 2025-04-21 225139](https://github.com/user-attachments/assets/2d6aa6c4-c8b5-440a-98e8-e9c907d1a13b)
+
   - ![Screenshot 2025-04-21 225229](https://github.com/user-attachments/assets/cd86c77b-afe0-46a3-ada3-3c3bbfa4a1bf)
 
-  - ![Screenshot 2025-04-21 225313](https://github.com/user-attachments/assets/f205fc35-8a11-4554-9e05-604fd1e47cb6)
 
   - ![Screenshot 2025-04-21 225313](https://github.com/user-attachments/assets/da6de02e-da44-4958-bc22-adb1881ba9c7)
 
