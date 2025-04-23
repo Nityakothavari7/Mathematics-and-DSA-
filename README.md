@@ -63,6 +63,8 @@ These works collectively inform our LQR-based solution, which combines array opt
 The telescope's dynamics are modeled as a continuous-time state-space system:
 
 ### State Vector
+The telescope's state vector is defined as:
+
 $$
 Y = \begin{bmatrix}
 \theta \\ 
@@ -71,11 +73,13 @@ Y = \begin{bmatrix}
 \omega_\phi
 \end{bmatrix}
 $$
-where:
-- $\theta$ = azimuth angle (rad)
-- $\phi$ = elevation angle (rad)  
-- $\omega_\theta$ = azimuth angular velocity (rad/s)
-- $\omega_\phi$ = elevation angular velocity (rad/s)
+
+Where:
+- $\theta$: Azimuth angle (radians)
+- $\phi$: Elevation angle (radians)  
+- $\omega_\theta$: Azimuth angular velocity (rad/s)
+- $\omega_\phi$: Elevation angular velocity (rad/s)
+
 
 ### Dynamics
 $$
