@@ -155,10 +155,6 @@ $$
 
   - ![Screenshot 2025-04-21 225313](https://github.com/user-attachments/assets/da6de02e-da44-4958-bc22-adb1881ba9c7)
 
-- **Performance Metrics:**  
-- RMSE (in degrees and arcseconds)
-- Settling time
-- Energy consumption
 
 ---
 
