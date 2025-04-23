@@ -12,7 +12,6 @@ This project presents a MATLAB-based simulation and control system for high-accu
 - [Overview](#overview)
 - [Features](#features)
 - [System Architecture](#system-architecture)
-- [Literature Review](#literature-review)
 - [Mathematical Modeling](#mathematical-modeling)
 - [LQR Control Algorithm](#lqr-control-algorithm)
 - [Simulation & Visualization](#simulation--visualization)
@@ -44,18 +43,7 @@ This project presents a MATLAB-based simulation and control system for high-accu
 
 ---
 
-## Literature Review
 
-Recent advances in telescope control leverage optimal control theory, array-based data structures, and real-time tracking algorithms:
-
-- **Queue Scheduling** (Puxley et al., 1997): Efficient observation management using priority-ordered arrays and circular buffers.
-- **Quaternion Arrays** (Yang et al., 2024): Eliminating gimbal lock and improving numerical stability in attitude modeling.
-- **Machine Learning** (Chichura et al., 2024): ML-enhanced pointing with GPU-accelerated arrays, achieving 2.14″ RMSE.
-- **Circular Buffer Architectures** (Chen et al.): High-rate, low-latency tracking with fixed-point arrays.
-- **Compressed Array Methods**: Efficient storage and rapid PID calculations for trajectory planning.
-- **Foundational Texts**: Brogan, Ogata, Franklin, Dorf—covering array optimization, quaternion math, and embedded implementation for real-time systems.
-
-These works collectively inform our LQR-based solution, which combines array optimization and Bryson-rule tuning for sub-arcsecond tracking with real-time performance.
 
 ---
 ## Mathematical Modeling
@@ -191,17 +179,6 @@ $$
 
 ---
 
-## References
-
-1. Puxley, P. J. (1997). Execution of Queue-Scheduled Observations with the Gemini 8m Telescopes. *SPIE*.
-2. Yang, Y., Bentz, W., & Lewis, L. (2024). A Systematic Methodology for Modeling and Attitude Control of Multibody Space Telescopes. *IEEE TAES*.
-3. Chichura, P. M., et al. (2024). Pointing Accuracy Improvements for the South Pole Telescope with Machine Learning.
-4. Brogan, W. L. (1991). Modern Control Theory (3rd ed.). Prentice Hall.
-5. Ogata, K. (2010). Modern Control Engineering (5th ed.). Prentice Hall.
-6. Franklin, G. F., Powell, J. D., & Emami-Naeini, A. (2019). Feedback Control of Dynamic Systems (8th ed.). Pearson.
-7. Dorf, R. C., & Bishop, R. H. (2020). Modern Control Systems (14th ed.). Pearson.
-8. Nan, R. et al. (2011). FAST Technical Handbook.
-9. Zhang, X. et al. (2022). IEEE Trans. Control Sys. Tech.
 
 ---
 
