@@ -64,7 +64,7 @@ The telescope's dynamics are modeled as a continuous-time state-space system:
 
 ### State Vector
 $$
-y = \begin{bmatrix}
+Y = \begin{bmatrix}
 \theta \\ 
 \phi \\ 
 \omega_\theta \\ 
